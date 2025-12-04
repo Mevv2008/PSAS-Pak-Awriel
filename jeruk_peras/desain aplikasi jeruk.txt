@@ -1,0 +1,155 @@
+# Desain Modern Aplikasi Toko Jeruk Peras
+
+## Skema Warna dan Tema
+- **Warna Primer**: Orange segar (#FF8C42) dan hijau daun (#8BC34A)
+- **Warna Sekunder**: Putih (#FFFFFF), abu-abu terang (#F5F5F5), dan coklat (#795548) untuk topping
+- **Font**: 'Poppins' (utama), 'Open Sans' (teks tubuh)
+- **Styling**: Border radius tinggi (12px), bayangan lembut, gradient orange
+
+## Desain Halaman User
+
+### 1. Halaman Utama (Homepage) - Modern & Menarik
+- **Header**: 
+  - Navbar transparan dengan logo di kiri (gambar jeruk segar)
+  - Menu navigasi: Beranda, Menu, Pesan, Kontak
+  - Tombol login admin dengan ikon
+  - Latar belakang header: gradient orange dengan gambar jeruk
+
+- **Hero Section**:
+  - Background: Gambar es jeruk peras dengan efek blur
+  - Overlay teks: "Segarnya Jeruk Peras Asli" dengan font besar dan bold
+  - Tombol CTA besar: "Pesan Sekarang" dengan efek hover
+  - Elemen dekoratif: Irisan jeruk mengambang di latar belakang
+
+- **Fitur Unggulan** (dalam kartu dengan ikon):
+  - 100% Jeruk Asli
+  - Topping Premium
+  - Antar Sampai Rumah
+  - Pembayaran Mudah
+
+- **Menu Populer**:
+  - Tampilan kartu dengan gambar produk, nama, harga, dan rating bintang
+  - Efek hover: zoom dan shadow
+  - Badge "TERLARIS" untuk produk populer
+
+- **Testimonial Carousel**:
+  - Kartu testimonial dengan foto pelanggan, nama, dan komentar
+  - Latar belakang kutipan (quote marks) dekoratif
+  - Rating bintang
+
+- **Footer**:
+  - Latar belakang gradient orange
+  - Bagian newsletter dengan form email
+  - Link sosial media dengan ikon
+  - Jam operasional dan kontak
+
+### 2. Halaman Menu - Interaktif
+- **Filter Kategori**:
+  - Tab horizontal: Semua, Original, Topping, Paket
+  - Efek aktif dengan underline animation
+
+- **Tampilan Produk**:
+  - Grid kartu dengan gambar produk
+  - Hover effect: tombol "Pesan" muncul
+  - Badge untuk produk baru atau populer
+  - Animasi saat produk muncul (fade in)
+
+- **Quick View Modal**:
+  - Tampil saat kartu produk di-click
+  - Detail produk, pilihan topping, dan tombol tambah ke pesanan
+
+### 3. Halaman Pemesanan - Immersive
+- **Proses Multi-step**:
+  - Progress bar dengan 3 langkah: Pilih Produk → Detail Pengiriman → Konfirmasi
+  - Setiap langkah dalam kartu terpisah dengan animasi transisi
+
+- **Customisasi Produk**:
+  - Visual pilihan topping dengan gambar
+  - Slider untuk level kemanisan dengan ikon gula
+  - Pilihan es (normal, sedikit, tanpa es) dengan ikon es batu
+
+- **Preview Pesanan**:
+  - Gambar produk berubah sesuai pilihan topping
+  - Perhitungan harga real-time
+  - Ringkasan pesanan yang sticky saat di-scroll
+
+### 4. Halaman Konfirmasi - Kepuasan Pengguna
+- **Ilustrasi Success**:
+  - Ikon centang besar dengan animasi
+  - Pesan "Pesanan Anda Sedang Diproses"
+
+- **Detail Pesanan**:
+  - Kartu dengan border glow
+  - Timeline proses pesanan (diterima, diproses, dikirim)
+  - Nomor pesanan yang dapat di-copy
+
+- **Rekomendasi Produk**:
+  - Item yang sering dibeli bersama
+  - Banner promo untuk pesanan berikutnya
+
+## Desain Halaman Admin - Modern & Fungsional
+
+### 1. Login Admin - Minimalis & Profesional
+- Form login dengan latar belakang gambar jeruk blur
+- Logo admin dengan shield icon
+- Efek hover pada input field
+- Tombol login dengan loading animation
+
+### 2. Dashboard - Data Visualization
+- **Statistik Cards**:
+  - Pendapatan hari ini dengan progress bar vs target
+  - Pesanan baru dengan notifikasi badge
+  - Produk terlaris dengan sparkline graph
+
+- **Grafik Penjualan**:
+  - Line chart untuk trend penjualan 7 hari
+  - Pie chart untuk kategori produk terjual
+  - Interactive dengan tooltip
+
+- **Aktivitas Terkini**:
+  - List pesanan terbaru dengan status color coding
+  - Notifikasi sistem
+
+### 3. Manajemen Produk - Drag & Drop
+- **Tabel Produk**:
+  - Row dengan thumbnail produk
+  - Toggle switch untuk status aktif/non-aktif
+  - Tombol aksi dengan dropdown
+
+- **Form Tambah/Edit Produk**:
+  - Upload gambar dengan preview
+  - Input group dengan currency format untuk harga
+  - Select2 untuk kategori
+
+### 4. Manajemen Pesanan - Detail Oriented
+- **Kanban Board**:
+  - Kolom: Pesanan Baru, Diproses, Dikirim, Selesai
+  - Drag & drop kartu pesanan antar kolom
+  - Color coding untuk prioritas
+
+- **Detail Pesanan Modal**:
+  - Info lengkap pemesan dan produk dipesan
+  - Timeline status pesanan
+  - Catatan internal untuk admin
+
+## Animasi & Microinteractions
+- Hover effects pada semua tombol dan kartu
+- Loading animations untuk transisi halaman
+- Notification toasts untuk aksi berhasil
+- Confirmation modals untuk hapus data
+- Page transition animations
+
+## Komponen Khusus
+- **Custom Radio Buttons**: Untuk pilihan topping dengan gambar
+- **Range Slider**: Untuk level kemanisan dengan visual
+- **Floating Cart Icon**: Dengan badge jumlah item
+- **Back to Top Button**: Dengan animasi muncul saat scroll
+- **Dark/Light Mode Toggle**: Untuk kenyamanan pengguna
+
+## Desain Responsif
+- Breakpoints khusus untuk mobile, tablet, dan desktop
+- Navigation drawer untuk mobile
+- Grid layout yang adaptif
+- Touch-friendly elements untuk mobile
+
+Desain ini menciptakan pengalaman visual yang modern dan segar sesuai dengan produk jeruk peras, dengan antarmuka yang intuitif dan menarik bagi pengguna, serta fungsionalitas lengkap untuk admin mengelola toko.
