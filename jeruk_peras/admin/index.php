@@ -94,7 +94,7 @@ $result_pesanan = mysqli_query($koneksi, $query_pesanan);
         <!-- Stats Cards -->
         <div class="row mb-4 g-3">
             <div class="col-md-4">
-                <div class="stat-card bg-primary">
+                <div class="stat-card bg-danger">
                     <div class="d-flex justify-content-between align-items-center">
                         <div>
                             <h5>Pesanan Hari Ini</h5>
@@ -105,7 +105,7 @@ $result_pesanan = mysqli_query($koneksi, $query_pesanan);
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="stat-card bg-success">
+                <div class="stat-card bg-warning text-dark">
                     <div class="d-flex justify-content-between align-items-center">
                         <div>
                             <h5>Pendapatan Hari Ini</h5>
@@ -116,7 +116,7 @@ $result_pesanan = mysqli_query($koneksi, $query_pesanan);
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="stat-card bg-warning text-dark">
+                <div class="stat-card bg-success text-dark">
                     <div class="d-flex justify-content-between align-items-center">
                         <div>
                             <h5>Perlu Diproses</h5>
