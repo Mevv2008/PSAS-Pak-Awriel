@@ -58,14 +58,14 @@ $result_pesanan = mysqli_query($koneksi, $query_pesanan);
             opacity: 0.8;
         }
         .order-card {
-            border: 1px solid #dee2e6;
+            border: 1px solid #e11616ff;
             border-radius: 10px;
             margin-bottom: 1.5rem;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
         .order-card-header {
-            background-color: #f8f9fa;
-            border-bottom: 1px solid #dee2e6;
+            background-color: #eeff00ff;
+            border-bottom: 1px solid #0dff05ff;
             font-weight: 600;
         }
         .filter-btn-group .btn {
